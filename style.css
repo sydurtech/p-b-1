@@ -1,0 +1,691 @@
+
+/*--nav bar--*/
+.navBarCustomized{
+	background-color:transparent;
+	border:none;
+	padding:40px 0px 0px 0px;
+	}
+
+#listItems{padding-top:10px;}
+
+#listItems li a{
+	font-size: 22px;
+	color:white;
+	font-family: 'Titillium Web', sans-serif;
+}
+#listItems li a:hover{
+	background: coral;
+	color: white;
+	border-radius: 5px;
+}
+
+.navbar-fixed-top{position: absolute;}
+/*--nav bar--*/
+
+
+
+/*--first section--*/
+.firstSection{
+	background-color:#854E9A;
+	padding:40px 0px;
+	opacity:.95;
+	transition:.5s;
+	}
+.firstSection:hover{opacity:1;transition:.5s;}
+
+.fsContent{
+	text-align: center;
+	margin:160px 0px;
+	}
+
+.fsContent h1{
+	font-family: 'Titillium Web', sans-serif;
+	color:white;
+	padding:40px 0px;
+	font-weight: bold;
+	}
+
+.btn_custom{
+	text-transform: uppercase;
+	background-color:#EA7C4A;
+	border-color:#EA7C4A;
+	color:white;
+	padding:12px 55px;
+	transition:1s;
+	}
+
+.btn_custom:hover{
+	color:#EA7C4A;
+	transition:1s;
+	}
+/*--first section--*/
+
+
+
+/*--second section--*/
+.secondSection{
+	background-color:#16C1A3;
+	padding:80px 0px;
+	opacity:.95;
+	transition:.5s;
+	}
+.secondSection:hover{opacity:1;transition:.5s;}
+
+.ssContent h1{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+	}
+
+.ssContent p{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	color:white;
+	font-size:130%;
+	width:95%;
+	margin:0 auto;
+	}
+
+.underline{
+	width:10%;
+	border-width:3px;
+	border-color:rgba(0,0,0,.35);
+	}
+
+.services{
+	text-align: center;
+	color:white;
+	}
+
+.images{
+	height:150px;
+	}
+
+.services img{
+	margin: 0 auto;
+	}
+
+.services h3{
+	font-family: 'Titillium Web', sans-serif;
+	text-transform:uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size:120%;
+	}
+
+.services p{
+	font-family: 'Titillium Web', sans-serif;	
+	}
+
+.servicesBlocks{
+	padding:120px 0px 0px 0px;
+	}
+/*--second section--*/
+
+
+
+/*--third section--*/
+.thirdSection{
+	background-color:#E6F0F7;
+	padding:80px 0px;
+	opacity:.95;
+	transition:.5s;
+	}
+.thirdSection:hover:{opacity:1;transition:.5s;}
+
+.tsContent{
+	text-align: center;
+	}
+
+.tsContent h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:bold;
+	}
+
+.tsContent p{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	color:rgba(0,0,0,.75);
+	font-size:130%;
+	width:95%;
+	margin:0 auto;
+	}
+
+.circle{
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	background-color:rgba(0,0,0,.35);
+	margin:0 auto;
+	}
+
+.team{
+	padding-top:60px;
+	}
+
+.team h3{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:135%;
+	text-align: center;
+	font-weight: bold;
+	}
+
+.team h5{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	color:#16C1A3;
+	}
+
+.team p{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	padding:15px;
+	width:95%;
+	margin:0 auto;
+	}
+
+.social-profile a{
+	margin: 5px;
+	text-decoration: none;
+}
+.social-profile i.fa{
+	background: #bdd1df;
+	color: #fff;
+	width: 25px;
+	height:25px;
+	border-radius: 50%;
+	text-align:center;
+	font-size:18px;
+	padding-right:3px;
+	padding-top:4px;
+	/*cursor: pointer;*/
+	transition: .7s;
+	margin-bottom: 20px;
+}
+
+
+/*--third section--*/
+
+
+
+/*--fourth section--*/
+.fourthSection{
+	padding:80px 0px;
+	background:#fff;
+}
+.fourthSection:hover{opacity:1;transition:.5s;}
+
+.skills{
+	padding-top:60px;
+	}
+
+.skillBlock{
+	text-align: center;
+	}
+
+.skillBlock img{
+	margin:0 auto;
+	}
+
+.skillBlock h3{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	}
+/*--fourth section--*/
+
+
+
+/*--fifth section--*/
+.fifthSection{
+	background-color:#FDDB97;
+	padding:80px 0px;
+	opacity:.95;
+	transition:.5s;
+	}
+.fifthSection:hover{
+	opacity:1;
+	transition:.5s;
+	}
+
+.categories{
+	margin:0 auto;
+	padding-top:40px;
+	}
+
+.laptop h4{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	padding:20px 0px 40px 0px;
+	}
+
+.laptop img{
+	margin:0 auto;
+	width:100%;
+	opacity:.85;
+	transition: .7s;
+	}
+
+.laptop img:hover{
+	opacity:1;
+	transition:.7s;
+	}
+
+.portfolio{
+	margin-top:75px;
+	text-align: center;
+	}
+
+.btn_custom2{
+	margin:0 auto;
+	background-color:#16C1A3;
+	border-color:#16C1A3;
+	color:white;
+	transition:1s;
+	padding:15px 30px;
+	}
+
+.btn_custom2:hover{
+	border-color:#FDDB97;
+	color:#16C1A3;
+	transition:1s;
+	}
+/*--fifth section--*/
+
+
+
+/*--sixth section--*/
+.sixthSection{
+	padding:80px 0px;
+	background-color:#D6457F;
+	opacity:.95;
+	transition:.5s;
+	}
+
+.sixthSection:hover{
+	opacity:1;
+	transition: .5s;
+	}
+
+.feedbackSection{
+	padding-top:50px;
+	}
+
+.peopleCircle{
+	height:100px;
+	width:100px;
+	border-radius:50%;
+	background-color:#787878;
+	margin:0 auto; 
+	}
+
+.feedbackText p{
+	font-family: 'Titillium Web', sans-serif;
+	color:#ECEFF1;
+	font-style: italic;
+	font-size:110%;
+	text-align:left;
+	padding:10px;
+	}
+
+.feedbackText h3{
+	margin:0;
+	font-family: 'Titillium Web', sans-serif;
+	color:white;
+	font-weight: bold;
+	padding-bottom:5px;
+	}
+
+.feedbackText h5{
+	margin:0;
+	font-family: 'Titillium Web', sans-serif;
+	color:#FEDC98;
+	}
+/*--sixth section--*/
+
+
+
+/*--seventh section--*/
+.seventhSection{
+	background-color:#3C5499;
+	padding:80px 0px;
+	opacity: .95;
+	transition:.5s;
+	}
+
+.seventhSection:hover{
+	opacity:1;
+	transition:.5s;
+	}
+
+.contactForm{
+	margin-top:60px;
+	overflow: hidden;
+	}
+
+.inputsOuter{
+	border:4px solid #3C5499;
+	}
+
+.inputs{
+	padding:20px 10px;
+	background-color:#273A71;
+	border:none;
+	color:#D6457F;
+	font-family: 'Titillium Web', sans-serif;
+	}
+
+.sendBtn{
+	background-color:#30BAE7;
+	border-color:#3C5499;
+	padding:15px 30px;
+	margin-top:20px;
+	color:white;
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	}
+
+.textBox{
+	padding-bottom:120px;
+	background-color:#273A71;
+	border:none;
+	color:#CFD8DC;
+	font-family: 'Titillium Web', sans-serif;
+	}
+
+.sendBtn:hover{
+	background-color:white;
+	color:#3C5499; 
+	}
+
+/*--seventh section--*/
+
+
+
+/*--footer section--*/
+.footer{
+	background-color:#344B8E;
+	overflow: hidden;
+	padding:20px;
+	}
+
+.socialList ul{
+	text-align: center;
+	list-style: none;
+	}
+
+.socialList ul li{
+	font-family: 'Titillium Web', sans-serif;
+	display: inline-block;
+	color:white;
+	font-size:110%;
+	float: left;
+	margin-right:80px;
+	margin-left:0px;
+	cursor:pointer;
+	transition: .8s;
+	}
+
+.socialList ul li:hover{
+	color:#318CC2;
+	transition:.8s;
+	}
+
+.socialList ul li:nth-child(7) {
+	margin-right:0px;
+	}
+
+.cText{
+	width:60%;
+	margin:0 auto;
+	text-align: center;
+	}
+
+.copyright{
+	background-color:#273A71;
+	}
+
+.cText h5{
+	margin:0;
+	color:white;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: lighter;
+	letter-spacing:2px;
+	padding:2px;
+	}
+
+/*--footer section--*/
+
+
+
+/*--scroll fix--*/
+.clearpadding{
+	padding-right:0px;
+	padding-left:0px;
+	}
+
+.container-fluid {
+	padding-left:0px;
+	padding-right:0px;
+    margin-right: auto;
+    margin-left: auto;
+	}
+
+.row {
+    margin-right:0px;
+    margin-left:0px;
+	}
+/*--scroll fix--*/
+
+
+
+
+
+
+/*--media queries--*/
+
+
+/*--for samll devices--*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+.secondSection {
+    padding: 40px 0px;
+    box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}
+
+.services {
+    margin-bottom: 70px;
+	}
+
+.servicesBlocks {
+    padding: 56px 0px 0px 0px;
+	}
+
+.services h3 {
+    margin-top: -5px;
+	}
+
+.thirdSection {
+    padding: 40px 0px;
+    box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}
+
+.skillBlock {
+    margin-bottom: 40px;
+	}
+
+.fourthSection {
+    padding: 18px 0px;
+	box-shadow: inset 0px 0px 76px -47px rgba(0,0,0,1);
+	}
+
+.fifthSection {
+    padding: 40px 0px;
+    box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}
+
+.sixthSection {
+    padding: 40px 0px;
+    box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}
+
+.feedbackText p {
+    text-align: center;
+	}
+
+.feedbackText h3 {
+    text-align: center;
+	}
+
+.feedbackText h5 {
+    text-align: center;
+	}
+
+.seventhSection {
+    padding: 40px 0px;
+    box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}
+
+.footer {
+    padding: 12px;
+	}
+
+.socialList ul li {
+    font-size: 107%;
+    margin-right: 47px;
+	}
+
+ }
+ /*--for samll devices--*/
+
+
+
+
+/*--for extra small devices--*/
+@media (max-width:767px) {
+	.navBarCustomized ul li{
+	background-color:#854E9A;
+	margin-top: 0px;
+	border:none;
+	}
+
+#listItems {
+    padding-top: 0px;
+    margin-top: 0px;
+	}
+
+.fsContent h1 {
+    font-size:22px;
+	}
+
+.ssContent h1 {
+    font-size: 25px;
+	}
+
+.ssContent p {
+   width: 100%; 
+   }
+
+.servicesBlocks {
+    padding: 60px 0px 0px 0px;
+	}
+
+.services h3 {
+     font-size: 150%; 
+	}
+
+.images {
+     height: auto; 
+	}
+
+.secondSection {
+    padding: 25px 0px;
+	box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}
+
+.services {
+    margin-top: 25px;
+	}
+
+.thirdSection {
+    padding: 25px 0px;
+	box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}
+
+.tsContent h1 {
+    font-size: 25px;
+	}
+
+.fourthSection {
+    padding: 25px 0px;
+	box-shadow: inset 0px 0px 76px -47px rgba(0,0,0,1);	
+	}
+
+.skillBlock h3 {
+    padding-bottom: 54px;
+	}
+
+.skillBlock:nth-child(4) h3{padding-bottom:0px;}
+
+.fifthSection {
+    padding: 25px 0px;
+	box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}
+
+.sixthSection {
+    padding: 25px 0px;
+	box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}	
+
+hr {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    border: 0;
+    border-top: 1px solid #eee;
+	}
+
+.firstSection {
+    padding: 24px 0px;
+	box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}
+
+.feedbackText p {
+    text-align: center;
+	}
+
+.feedbackText h3 {
+    text-align: center;
+	}
+
+.feedbackText h5 {
+    text-align: center;
+	}
+
+.seventhSection {
+    padding: 25px 0px;
+	box-shadow: inset 0px 0px 93px -30px rgba(23,21,23,1);
+	}
+
+.footer {
+    padding: 10px;
+	}
+
+.socialList ul li {
+    font-size: 86%;
+    margin-right: 6px;
+	}
+
+	}
+ /*--extra small devices--*/
+
+
+
+/*--other devices--*/
+@media (min-width: 319px) and (max-width: 375px){
+
+.socialList ul li {
+    font-size: 60%;
+    margin-right: 4px;
+	}
+	}
+/*--other devices--*/
